@@ -117,7 +117,7 @@ filter: alpha(opacity=95) !important;
 	left:0;
 	right:0;
 	bottom:0;
-	background-color:#fff; /* change if the mask should have another color then white */
+	background-color:#003438 ; /* change if the mask should have another color then white */
 	z-index:99; /* makes sure it stays on top */
 }
 
@@ -314,7 +314,7 @@ color: #ECEBEB;
 .banner {
 	padding: 100px 0;
 	color: #f8f8f8;
-	background: url(../img/intro/banner-bg.jpg) no-repeat center center;
+	background: url(../img/portrait-nyon.jpeg) no-repeat center center;
 	background-size: cover;
 }
 
