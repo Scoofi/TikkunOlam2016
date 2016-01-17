@@ -1251,4 +1251,35 @@ p.copyright {
 		display: none;
 	}
 
+
+}
+
+.resources {
+margin: 0px !important;
+width: 100%;
+}
+
+.resource {
+	height: 400px;
+}
+
+.boldheader {
+	font-size: 50px;
+	color: #f0EDDB;
+}
+
+.boldheaderdark {
+		color: #003438 !important;
+}
+
+.register {
+		background: #003438;
+}
+
+.reminder{
+		background: #009494;
+}
+
+.ballot {
+	background: #fffcc4;
 }
