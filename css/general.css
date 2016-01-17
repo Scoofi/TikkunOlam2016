@@ -1191,7 +1191,7 @@ color: #ECEBEB;
 }
 
 footer {
-	background-color: #f8f8f8;
+	background-color: #f0EDDB;
 	padding: 50px 0;
 }
 
@@ -1257,15 +1257,20 @@ p.copyright {
 .resources {
 margin: 0px !important;
 width: 100%;
+text-align: center;
 }
 
 .resource {
 	height: 400px;
+	padding-top: 30px;
+	color: #f0EDDB;
 }
 
 .boldheader {
 	font-size: 50px;
 	color: #f0EDDB;
+	text-align: center;
+
 }
 
 .boldheaderdark {
@@ -1282,4 +1287,5 @@ width: 100%;
 
 .ballot {
 	background: #fffcc4;
+	color: #003438 !important;
 }
