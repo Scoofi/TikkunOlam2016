@@ -11,6 +11,7 @@
     <meta name="description" content="Bringing attention to midterm and local elections. ">
     <meta name="author" content="Mo Goltz, Muriel Macdonald, Scott Friedman">
 
+
     <title>Swing Vote</title>
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -67,6 +68,19 @@
         stroke-width: 2;
       }
     </style>
+
+          <!-- Facebook Pixel Code -->
+      <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','//connect.facebook.net/en_US/fbevents.js');fbq('init', '1506523556317165');
+      fbq('track', "PageView");</script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1506523556317165&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Facebook Pixel Code -->
 </head>
 
 <body id="home">
@@ -125,7 +139,7 @@
       var legendRectSize = 18;
       var legendSpacing = 4;
 
-      var color = d3.scale.category20b();
+      var color = d3.scale.category20c();
 
       var svg = d3.select('#chart')
         .append('svg')
